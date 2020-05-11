@@ -2,7 +2,6 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/nav.php" ?>
 
-
     <!-- Page Content -->
     <div class="container">
 
@@ -10,8 +9,7 @@
 
             <!-- Blog Entries Column -->
             <div class="col-md-8">
-            <?php
-
+            <?php 
                 $query = "SELECT * FROM posts";
                 $select_posts = mysqli_query($connection, $query);
 
